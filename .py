@@ -4,9 +4,10 @@ from nltk.chat.util import Chat, reflections
 # Pares de padrão e respostas para o chatbot
 pares = [
     ["Oi|Olá|Hey", ["Oi!", "Olá!", "Hey!"]],
-    ["Como você está?", ["Eu estou bem, obrigado por perguntar.", "Eu estou ótimo!"]],
+    ["Como você está?", ["Eu estou bem, obrigado por perguntar.", "Eu estou ótimo, e você?"]],
+    ["Eu estou bem!|Estou bem!", ["isso é ótimo!"]],
     ["Qual é o seu nome?", ["Me chamam de gabaJr.", "Pode me chamar de chatbot."]],
-    ["Qual é o sentido da vida?", ["42, de acordo com o Guia do Mochileiro das Galáxias."]],
+    ["Qual é o sentido da vida?", ["Eu também gostaria de saber"]],
     ["Tchau|Até logo", ["Até mais!", "Tchau!"]]
     ]
 
